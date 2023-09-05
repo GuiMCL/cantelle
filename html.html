@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="style.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto cantelle</title>
+    <script href="calcular.js"></script>
+    
+
+</head>
+
+                       <body>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <div class="container">
+                            <div id="conteudo">
+                                <p id="font">Simulador | CANTELLE</p>
+                                <br>
+                                <div>
+                                    <label for="valornota"> Digite o valor da Nota: </label> <br>
+                                    <input type="text" id="valornota" name="valornota" required>
+                                </div>
+<br>
+                                <div>
+                                    <label for="peso1    "> Digite o peso: </label> <br>
+                                    <input type="text" id="peso1" name="peso1" required>
+                                </div>
+<br>
+                                <div>
+                                    <label for="mkmga    "> Digite a MKg MGA X GO: </label> <br>
+                                    <input type="text" id="mkmga" name="mkmga" required>
+                                </div>
+<br>
+                                <div>
+                                        <label for="mkgo"> Digite a MKg GO X DEST: </label> <br>
+                                        <input type="text" id="mkgo" name="mkgo" required>
+                                </div>
+                                <div>
+                                    <p>VALOR TOTAL DO FRETE: </p>
+                                    <input type="text" id="pagar" name="pagar" disabled>
+                                    <input id="botao1" type="button" value="Calcular" onclick="calcular()" onmouseover="botao(this)" onmouseout="botao(this)">
+                                 </div>
+            </div>
+        </div>
+    
+                    <script>
+
+                        jQuery(document).ready(function($) {
+                            $
+                            ('.money').mask('000.000.000.000.000,00',{reverse:true});});
+                            
+                        
+
+                    function calcular(){
+                    var valornota             = document.getElementById("valornota").value;
+                    var resultado         = document.getElementById("pagar");
+                    var creditoParcelado  = document.getElementById("parcelado");
+                    var peso             = document.getElementById("peso1").value;
+                    var mkmga              =document.getElementById("mkmga").value;
+                    var grissgo            = 0;
+                    var desconto            = 0;
+                    var total              =0;
+                    var fretogo                    = 0;
+                    var mkgo            =document.getElementById("mkgo").value;
+                    
+                    if(valornota>99)
+                    if(peso>0.1)
+                  
+                    {
+                            
+                            valornota = valornota*0.4/100;
+                            grissgo = valornota*0.1/100
+                            peso = peso*mkmga;
+                            fretogo = peso*mkgo
+                            if(fretogo<55){
+                                fretogo = 55
+                            }
+                         
+                            total = fretogo + valornota + peso + grissgo;
+
+                        
+
+                    }
+                
+
+                resultado.value = "Pagar:"+total;
+                }
+
+                    </script>
+</body>
+</html>

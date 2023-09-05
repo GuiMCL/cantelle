@@ -1,0 +1,162 @@
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+    
+        }
+        #conteudo {
+            padding: 0px;
+            font-size: 20px;
+            border-width: 1px;
+            border-color: #999999;
+            background-color: #8b8b8b;
+            color: #000000;
+            border-style: solid;
+            border-radius: 10px;
+            box-shadow: -2px 4px 9px rgba(66, 66, 66, .75);
+            text-shadow: 0px 0px 14px rgba(66, 66, 66, .59);
+            width: 680px;
+            height: 450px;
+            text-align: center;
+            font-family: sans-serif;
+            border-radius: 15px;
+            padding-top: 40px;
+       
+           }
+
+           body{
+            background: #ffffff ;
+           }
+
+           #font   {
+            font-size: 32px;
+            font-style: italic;
+            font-family: "arial black";
+            font-weight: bold;
+            margin: 0px;
+
+           }
+           #valornota{
+           padding: 0px;
+           font-size: 20px;
+           border-width: 1px;
+           border-color: #cccccc;
+           background-color: #cccccc;
+           color: #000000;
+           border-style: solid;
+           border-radius: 10px;
+           box-shadow: -2px 4px 9px rgba(66, 66, 66, .75);
+           text-shadow: 0px 0px 14px rgba(66, 66, 66, .59);
+
+           }
+           .valornota:focus{
+                outline: none;
+           }
+
+
+           #mkmga{
+            padding: 0px;
+            font-size: 20px;
+            border-width: 1px;
+            border-color: #cccccc;
+            background-color: #cccccc;
+            color: #000000;
+            border-style: solid;
+            border-radius: 10px;
+            box-shadow: -2px 4px 9px rgba(66, 66, 66, .75);
+            text-shadow: 0px 0px 14px rgba(66, 66, 66, .59);
+ 
+            }
+            .mkga:focus{
+                 outline: none;
+            }
+
+            #mkgo{
+                padding: 0px;
+                font-size: 20px;
+                border-width: 1px;
+                border-color: #cccccc;
+                background-color: #cccccc;
+                color: #000000;
+                border-style: solid;
+                border-radius: 10px;
+                box-shadow: -2px 4px 9px rgba(66, 66, 66, .75);
+                text-shadow: 0px 0px 14px rgba(66, 66, 66, .59);
+     
+                }
+                .mkgo:focus{
+                     outline: none;
+                }
+                
+                #peso1{
+                    padding: 0px;
+                    font-size: 20px;
+                    border-width: 1px;
+                    border-color: #cccccc;
+                    background-color: #cccccc;
+                    color: #000000;
+                    border-style: solid;
+                    border-radius: 10px;
+                    box-shadow: -2px 4px 9px rgba(66, 66, 66, .75);
+                    text-shadow: 0px 0px 14px rgba(66, 66, 66, .59);
+         
+                    }
+                      .peso1:focus{
+                         outline: none;
+                    }
+
+                #pagar{
+                    padding: 0px;
+                    font-size: 20px;
+                    border-width: 1px;
+                    border-color: #cccccc;
+                    background-color: #cccccc;
+                    color: #000000;
+                    border-style: solid;
+                    border-radius: 10px;
+                    box-shadow: -2px 4px 9px rgba(66, 66, 66, .75);
+                    text-shadow: 0px 0px 14px rgba(66, 66, 66, .59);
+         
+                    }
+                    .pagar:focus{
+                         outline: none;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+           #botao1{
+            font-family: "arial black";
+            font-weight: bold;
+            color: #000000 !important;
+            font-size: 12px;
+            text-shadow: 1px 1px 0px #7CACDE;
+            box-shadow: 0px 0px 1px #BEE2F9 ;
+            padding: 10px 25px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px ;
+            border-radius: 10px;
+            border: 2px solid #bebebe;
+            background: #b6b6b6;
+            background: linear-gradient(top,#cdcdce,#6d6d6d) ;
+
+
+
+
+           }
+    #label{
+        font-family: "arial black";
+    }
