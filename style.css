@@ -161,7 +161,7 @@
         font-family: "arial black";
     }
 #menu {
-	background: #0099CC;
+	background: black;
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
@@ -220,7 +220,7 @@
 #menu ul.sub-menus{
 	height: auto;
 	overflow: hidden;
-	width: 170px;
+	width: 190px;
 	background: #444444;
 	position: absolute;
 	z-index: 99;
